@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .header {
+            padding: 60px;
+            text-align: center;
+            background: url('https://dafsxkkpufaxb.cloudfront.net/arenas/cKXTecqD8i1dFyZUQxi32B2bXUmqVEwZ6IIY6h7q.png') no-repeat center center;
+            background-size: cover;
+            color: white;
+            font-size: 30px;
+            height: 300px; /* Ajuste a altura conforme necessário */
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+            padding: 10px;
+        }
+
+        .topnav ul {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .topnav input[type="text"] {
+            height: 30px;
+            width: 200px;
+            padding: 8px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            float: right;
+            margin-right: 16px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <nav class="topnav">
+        <ul>
+            <div>
+                <li><a href="inicio.asp">Inicio</a></li>
+                <li><a href="contato.asp">Contato</a></li>
+                <li><a href="cadastro.asp">Cadastro</a></li>
+                <li><a href="login.asp">Login</a></li>
+            </div>
+            <div>
+                <input type="text" placeholder="Pesquisar...">
+            </div>
+        </ul>
+    </nav>
+
+    <div class="header">
+        <h1></h1>
+    </div>
+
+</body>
+</html>
